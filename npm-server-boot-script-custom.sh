@@ -10,7 +10,6 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 sudo echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
 
-sudo ufw allow 21
 sudo ufw allow 22
 sudo ufw allow 80
 sudo ufw allow 443
